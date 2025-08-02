@@ -1,6 +1,7 @@
 # react an MYSQL for Beginners
 ### Node.js MYSQL Installation
 ```
+cd server
 npm init -y
 ```
 ```
