@@ -72,3 +72,11 @@ app.post("/link", (req,res)=>{
   })
 ))
 ```
+request post client 
+```
+app.use(express.json())
+const values = [
+req.body.val1,
+req.body.val2
+];
+```
