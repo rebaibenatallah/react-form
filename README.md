@@ -18,7 +18,8 @@ add (type : module) in package.json file
 ```
 ```
 "scripts":{
-"test": "e
+"test": "echo ..."
+"start": "modemon index.js"
 ```
 to run **index.js** file 
 ```
