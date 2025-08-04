@@ -82,3 +82,20 @@ req.body.val1,
 req.body.val2
 ];
 ```
+
+2 - React code
+to fectch data 
+```
+const [books, setBooks] =useState([])
+useEffect(()=>{
+  const featchAllBooks = async ()=>{
+try{
+  const res = await axios.get("http:localhost:8800/book")
+console.log(res)
+}catch(err){
+  consol.log(err)
+}
+}
+fecthAllBooks()
+},[])
+```
