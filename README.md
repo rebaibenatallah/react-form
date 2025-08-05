@@ -1,5 +1,11 @@
 # react an MYSQL for Beginners
 ### Node.js MYSQL Installation
+React 
+```
+cd client
+npm create vite@latest .
+npm install
+```
 ```
 cd server
 npm init -y
